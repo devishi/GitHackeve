@@ -4,8 +4,8 @@
 def bin_to_dec(s):
 	n=0
 	for i in range(len(s)):
-		n+=int(s[i]*(2**i))
-	
+		n+=(int(s[i])*(2**i))
+
 
 	return n #Number n in decimal form will be returned
 
